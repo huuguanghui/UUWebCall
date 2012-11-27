@@ -62,7 +62,7 @@ public class InviteAHandler implements com.richitec.sip.ISIPResponseHandler {
 			sessionA.setAttribute(Constant.LINKED_SESSION, sessionB);
 			// set sessionB userSipUri and its linked userSipUri
 			sessionB.setAttribute(Constant.USER_SIP_ADDR,
-					sessionA.getAttribute(Constant.LINKEDUSER_SIP_ADDR));
+			        sessionA.getAttribute(Constant.LINKEDUSER_SIP_ADDR));
 			sessionB.setAttribute(Constant.LINKEDUSER_SIP_ADDR,
 					sessionA.getAttribute(Constant.USER_SIP_ADDR));
 
